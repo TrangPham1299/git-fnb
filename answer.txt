@@ -1,0 +1,15 @@
+Các bước để đẩy code lên GitHub:
+Bước 1: Thêm toàn bộ file và cấu hình hiện tạo vào vùng nhớ tạm
+git add .
+Bước 2: lưu trữ thật sự các thay đổi
+git commit -m "first try"
+Trong đó sau -m là nội dung commit
+Bước 3: tạo nhánh master local
+git branch -M master
+Bước 4: tạo và đẩy code lên nhánh master remote
+git push -u origin master
+
+
+Nội dung config username và email:
+git config --global user.email "phamthitrang12199@gmail.com"
+git config --global user.name "trangpt"
