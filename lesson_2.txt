@@ -1,0 +1,19 @@
+1. 
+- git init :Dùng để khởi tạo một Git repository (kho lưu trữ) trong một thư mục
+- git add <file_name>: Thêm file vào khu vực staging
+- git add . : dùng để thêm tất cả các thay đổi (file mới, file sửa, file xóa) trong thư mục hiện tại và các thư mục con vào staging area.
+- git commit -m "message" : lệnh dùng để lưu (ghi lại) các thay đổi đã thêm vào staging area với một tin nhắn mô tả (message).
+
+
+2.
+Bước thực hiện               | Working Directory                           | Staging Area | Repository
+Tạo 3 file:file1,file2,file3 | file1,file2,file3(untracked)                | trống        | chưa có
+Chạy git init                | file1,file2,file3(untracked)                | trống        | được khởi tạo
+git commit -m"init project"  | file1,file2,file3(untracked)                | trống        | có 1 commit với nội dung = "init project"
+git add file1                | file1(tracked, staged),file2,file3(untracked| file1        | như trên
+git commit -m"add file1"     | file1(commit)                               | trống        | thêm 1 commit với nội dung = add file 1
+git add file ====> báo lỗi vì folder k có file nào tên như vậy
+
+
+
+-------------
