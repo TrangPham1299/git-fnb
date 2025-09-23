@@ -1,8 +1,9 @@
 count = 1;
-console.log(count);
-for (let index = 1; index <= 100; index++) {
+res = "" + count;
+for (let i = 1; i <= 100; i++) {
     if (i == count + 4) {
         count = i;
+        res += ", " + count;
     }
-    console.log(" ," + count);
 }
+console.log(res);
