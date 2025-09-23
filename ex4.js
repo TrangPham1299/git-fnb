@@ -1,7 +1,4 @@
-const { log } = require("console");
-
-System.out.print("Nhập chiều cao của bạn (cm): ");
-let chieuCao = scanner.nextInt();
+let chieuCao = 123;
 
 // Lấy phần số lẻ (tức là phần hàng chục và đơn vị)
 let soLe = chieuCao % 100;
